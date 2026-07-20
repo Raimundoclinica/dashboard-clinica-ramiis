@@ -1,26 +1,29 @@
 {
   "fecha": "2026-07-20",
-  "generado": "2026-07-20T21:20:24.820Z",
+  "generado": "2026-07-20T21:33:51.875Z",
   "ventas": {
-    "total": 8639510,
+    "total": 9586850,
     "porMedioPago": {
-      "Tarjeta de débito": 3955442,
-      "Bono Fonasa": 719620,
+      "Tarjeta de crédito": 1210480,
+      "Tarjeta de débito": 4664012,
+      "Bono Fonasa": 738400,
       "Efectivo": 2700880,
       "Seguro Complementario Previsión": 54048,
-      "Tarjeta de crédito": 990490,
       "Transferencia electrónica": 34670,
       "Bono": 184360
     }
   },
   "atenciones": {
-    "total": 330,
+    "total": 335,
     "porProfesional": {
+      "Valentina Henriquez García": 4,
+      "Ana  Vergara": 15,
+      "Alex Gual Ortiz": 3,
+      "Javiera  Pino": 1,
       "Sheila López": 10,
       "Christian  Georgi Rodriguez": 2,
       "David Hernandez Bastardo": 20,
       "Centro Otorrino Exámenes": 19,
-      "Ana  Vergara": 14,
       "Barbara Diaz Laser Diodo": 1,
       "Hugo Bertin Riess": 15,
       "Sergio  Galano": 73,
@@ -36,7 +39,6 @@
       "Hans Bachmann Lovece": 8,
       "Felipe Andai": 8,
       "Nashmia Gomez": 6,
-      "Valentina Henriquez García": 3,
       "Daniel Becker Contreras": 2,
       "Alvaro San Martin": 3,
       "Rodrigo Cárdenas Villarroel": 2,
@@ -50,7 +52,6 @@
       "Rubén Alejandro  Ramis Gutierrez": 2,
       "Erik Gallegos  Matamala ": 1,
       "Tyndall Volosky": 4,
-      "Alex Gual Ortiz": 1,
       "Ruben Gerardo Ramis  Olivares ": 2,
       "María Jesus  Gaete": 2,
       "Isidora Schmidt Vasquez": 4,
@@ -67,12 +68,12 @@
     }
   },
   "pacientes": {
-    "nuevos": 82,
-    "recurrentes": 224,
-    "total": 306
+    "nuevos": 83,
+    "recurrentes": 228,
+    "total": 311
   },
   "citas": {
-    "total": 351,
+    "total": 352,
     "canceladas": 61,
     "inasistencias": 21
   }
