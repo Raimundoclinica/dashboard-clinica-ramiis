@@ -1,0 +1,34 @@
+name: Sincronizar datos de Medilink
+
+on:
+  schedule:
+    - cron: '30 23 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ejecutar conector de Medilink
+        env:
+          MEDILINK_TOKEN: ${{ secrets.MEDILINK_TOKEN }}
+        run: node scripts/sync-medilink.js
+
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config user.name "medilink-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --quiet --cached || git commit -m "Actualiza datos del $(date +%F)"
+          git push
