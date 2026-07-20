@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dashboard Clínica Ramis</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  :root {
+    --bg: #f5f4f0;
+    --surface: #ffffff;
+    --border: #e3e1d9;
+    --text: #1c1c1a;
+    --text-secondary: #6b6a63;
+    --accent: #2a78d6;
+    --green: #1baf7a;
+    --amber: #eda100;
+    --red: #e34948;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  h1 { font-size: 20px; font-weight: 600; margin: 0; }
+  .date-picker {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 8px 14px;
+  }
+  .date-picker input[type="date"] {
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    background: transparent;
+    color: var(--text);
+  }
+  .status {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+  }
+  .card .label {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0 0 4px;
+  }
+  .card .value {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .panel h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  .chart-box { position: relative; width: 100%; height: 240px; }
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+  }
+  .legend span { display: flex; align-items: center; gap: 4px; }
+  .swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Clínica Ramis · Reporte diario</h1>
+    <div class="date-picker">
+      <span>&#128197;</span>
+      <input type="date" id="datePicker" />
+    </div>
+  </header>
+
+  <p class="status" id="status">Cargando...</p>
+
+  <div id="content" style="display:none;">
+    <div class="cards">
+      <div class="card"><p class="label">Ventas del día</p><p class="value" id="ventasTotal">-</p></div>
+      <div class="card"><p class="label">Atenciones totales</p><p class="value" id="atencionesTotal">-</p></div>
+      <div class="card"><p class="label">Pacientes nuevos</p><p class="value" id="pacientesNuevos">-</p></div>
+      <div class="card"><p class="label">Pacientes recurrentes</p><p class="value" id="pacientesRecurrentes">-</p></div>
+      <div class="card"><p class="label">Inasistencias</p><p class="value" id="inasistencias">-</p></div>
+      <div class="card"><p class="label">Citas canceladas</p><p class="value" id="canceladas">-</p></div>
+    </div>
+
+    <div class="panel">
+      <h2>Ventas por medio de pago</h2>
+      <div class="chart-box"><canvas id="ventasChart" role="img" aria-label="Ventas por medio de pago"></canvas></div>
+    </div>
+
+    <div class="panel">
+      <h2>Atenciones por profesional</h2>
+      <div class="chart-box"><canvas id="atencionesChart" role="img" aria-label="Atenciones por profesional"></canvas></div>
+    </div>
+  </div>
+
+  <div class="empty-state" id="emptyState" style="display:none;">
+    No hay datos guardados para esta fecha todavía.
+  </div>
+</div>
+
+<script>
+const COLORS = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#4a3aa7', '#e34948'];
+let ventasChart, atencionesChart;
+
+function money(n) {
+  return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 }).format(n || 0);
+}
+
+function destroyCharts() {
+  if (ventasChart) ventasChart.destroy();
+  if (atencionesChart) atencionesChart.destroy();
+}
+
+function renderBarChart(canvasId, labels, values, colorStart) {
+  const ctx = document.getElementById(canvasId);
+  const colors = labels.map((_, i) => COLORS[(colorStart + i) % COLORS.length]);
+  return new Chart(ctx, {
+    type: 'bar',
+    data: { labels, datasets: [{ data: values, backgroundColor: colors, borderRadius: 4, maxBarThickness: 32 }] },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: '#6b6a63' }, grid: { color: '#eceae2' } },
+        x: { ticks: { color: '#6b6a63' }, grid: { display: false } },
+      },
+    },
+  });
+}
+
+async function loadDate(fecha) {
+  const statusEl = document.getElementById('status');
+  const content = document.getElementById('content');
+  const emptyState = document.getElementById('emptyState');
+  statusEl.textContent = 'Cargando...';
+  content.style.display = 'none';
+  emptyState.style.display = 'none';
+
+  try {
+    const res = await fetch(`data/${fecha}.json?_=${Date.now()}`);
+    if (!res.ok) throw new Error('sin datos');
+    const d = await res.json();
+
+    document.getElementById('ventasTotal').textContent = money(d.ventas.total);
+    document.getElementById('atencionesTotal').textContent = d.atenciones.total;
+    document.getElementById('pacientesNuevos').textContent = d.pacientes.nuevos;
+    document.getElementById('pacientesRecurrentes').textContent = d.pacientes.recurrentes;
+    document.getElementById('inasistencias').textContent = d.citas.inasistencias;
+    document.getElementById('canceladas').textContent = d.citas.canceladas;
+
+    destroyCharts();
+    const medios = Object.entries(d.ventas.porMedioPago || {});
+    ventasChart = renderBarChart('ventasChart', medios.map(m => m[0]), medios.map(m => m[1]), 0);
+
+    const profs = Object.entries(d.atenciones.porProfesional || {});
+    atencionesChart = renderBarChart('atencionesChart', profs.map(p => p[0]), profs.map(p => p[1]), 2);
+
+    statusEl.textContent = `Actualizado: ${new Date(d.generado).toLocaleString('es-CL')}`;
+    content.style.display = 'block';
+  } catch (e) {
+    statusEl.textContent = '';
+    emptyState.style.display = 'block';
+  }
+}
+
+async function init() {
+  const picker = document.getElementById('datePicker');
+  let fechaInicial = new Date().toISOString().slice(0, 10);
+
+  try {
+    const res = await fetch(`data/index.json?_=${Date.now()}`);
+    if (res.ok) {
+      const fechas = await res.json();
+      if (fechas.length) fechaInicial = fechas[fechas.length - 1];
+    }
+  } catch (e) { /* usa hoy si no hay índice */ }
+
+  picker.value = fechaInicial;
+  picker.addEventListener('change', () => loadDate(picker.value));
+  loadDate(fechaInicial);
+}
+
+init();
+</script>
+</body>
+</html>
