@@ -1,0 +1,30 @@
+{
+  "fecha": "2026-07-21",
+  "generado": "2026-07-21T07:58:31.459Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 7,
+    "porProfesional": {
+      "Valentina Henriquez García": 1,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "David Hernandez Bastardo": 1,
+      "Sergio  Galano": 1,
+      "Sheila López": 1,
+      "Monica Majin Bastidas": 1,
+      "Rodrigo Cárdenas Villarroel": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 6,
+    "total": 7
+  },
+  "citas": {
+    "total": 373,
+    "canceladas": 70,
+    "inasistencias": 27
+  }
+}
