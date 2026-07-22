@@ -1,27 +1,46 @@
 {
   "fecha": "2026-07-22",
-  "generado": "2026-07-22T07:58:31.888Z",
+  "generado": "2026-07-22T13:22:31.001Z",
   "ventas": {
-    "total": 0,
-    "porMedioPago": {}
+    "total": 239680,
+    "porMedioPago": {
+      "Tarjeta de débito": 156549,
+      "Bono Fonasa": 73300,
+      "Seguro Complementario Previsión": 9831
+    }
   },
   "atenciones": {
-    "total": 4,
+    "total": 46,
     "porProfesional": {
-      "German  Campos": 1,
-      "Ana  Ziliani": 1,
-      "Monica Majin Bastidas": 1,
-      "Rodrigo Cárdenas Villarroel": 1
+      "Sergio  Galano": 15,
+      "Carola  González": 2,
+      "German  Campos": 3,
+      "Lab Oftalmología Camila Martínez": 1,
+      "Claudio  Mellado": 2,
+      "Lorena   Rodríguez Riedel": 1,
+      "David Hernandez Bastardo": 1,
+      "Centro Otorrino Exámenes": 1,
+      "Rodrigo Cárdenas Villarroel": 2,
+      "Valentina Flandez Jaramillo": 4,
+      "Ana  Vergara": 1,
+      "Felipe Riquelme": 1,
+      "Daniela  Guevara": 2,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "Hugo Bertin Riess": 2,
+      "Miguel  Arredondo": 1,
+      "Christian  Georgi Rodriguez": 2,
+      "Monica Majin Bastidas": 3,
+      "Ana  Ziliani": 1
     }
   },
   "pacientes": {
-    "nuevos": 2,
-    "recurrentes": 2,
-    "total": 4
+    "nuevos": 14,
+    "recurrentes": 30,
+    "total": 44
   },
   "citas": {
-    "total": 395,
-    "canceladas": 68,
-    "inasistencias": 43
+    "total": 400,
+    "canceladas": 70,
+    "inasistencias": 40
   }
 }
