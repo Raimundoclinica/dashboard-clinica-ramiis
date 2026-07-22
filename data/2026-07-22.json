@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-07-22",
+  "generado": "2026-07-22T07:58:31.888Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 4,
+    "porProfesional": {
+      "German  Campos": 1,
+      "Ana  Ziliani": 1,
+      "Monica Majin Bastidas": 1,
+      "Rodrigo Cárdenas Villarroel": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 2,
+    "recurrentes": 2,
+    "total": 4
+  },
+  "citas": {
+    "total": 395,
+    "canceladas": 68,
+    "inasistencias": 43
+  }
+}
