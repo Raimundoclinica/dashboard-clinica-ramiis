@@ -1,26 +1,51 @@
 {
   "fecha": "2026-07-23",
-  "generado": "2026-07-23T08:03:12.768Z",
+  "generado": "2026-07-23T14:02:29.383Z",
   "ventas": {
-    "total": 0,
-    "porMedioPago": {}
+    "total": 1353460,
+    "porMedioPago": {
+      "Tarjeta de débito": 437550,
+      "Bono Fonasa": 355570,
+      "Efectivo": 457000,
+      "Seguro Complementario Previsión": 43340,
+      "Tarjeta de crédito": 60000
+    }
   },
   "atenciones": {
-    "total": 3,
+    "total": 42,
     "porProfesional": {
-      "Ana  Ziliani": 1,
-      "Paola Herrera Martinez": 1,
-      "Sergio  Galano": 1
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Claudio  Mellado": 2,
+      "Sergio  Galano": 9,
+      "Nashmia Gomez": 1,
+      "Alex Gual Ortiz": 1,
+      "Martin  Garcia Huidobro": 2,
+      "Rodrigo Cárdenas Villarroel": 1,
+      "Centro Otorrino Exámenes": 1,
+      "Patricio Duery Diaz": 1,
+      "German  Campos": 3,
+      "Hugo Bertin Riess": 3,
+      "Sin asignar": 1,
+      "Miguel  Arredondo": 1,
+      "Tyndall Volosky": 1,
+      "Paola Herrera Martinez": 4,
+      "Carola  González": 1,
+      "Christian  Georgi Rodriguez": 1,
+      "Valentina Flandez Jaramillo": 3,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "Ana  Vergara": 1,
+      "Ana  Ziliani": 2,
+      "Giovanna  Soto": 1
     }
   },
   "pacientes": {
-    "nuevos": 2,
-    "recurrentes": 1,
-    "total": 3
+    "nuevos": 14,
+    "recurrentes": 24,
+    "total": 38
   },
   "citas": {
-    "total": 423,
-    "canceladas": 72,
-    "inasistencias": 24
+    "total": 431,
+    "canceladas": 79,
+    "inasistencias": 26
   }
 }
