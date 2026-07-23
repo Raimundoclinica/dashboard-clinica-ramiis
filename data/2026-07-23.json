@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-07-23",
+  "generado": "2026-07-23T08:03:12.768Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 3,
+    "porProfesional": {
+      "Ana  Ziliani": 1,
+      "Paola Herrera Martinez": 1,
+      "Sergio  Galano": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 2,
+    "recurrentes": 1,
+    "total": 3
+  },
+  "citas": {
+    "total": 423,
+    "canceladas": 72,
+    "inasistencias": 24
+  }
+}
