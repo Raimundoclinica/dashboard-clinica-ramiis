@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-07-24",
+  "generado": "2026-07-24T07:58:24.903Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 3,
+    "porProfesional": {
+      "Victor  León Arriagada ": 1,
+      "Loreto Borquez": 1,
+      "Hans Bachmann Lovece": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 2,
+    "total": 3
+  },
+  "citas": {
+    "total": 276,
+    "canceladas": 50,
+    "inasistencias": 14
+  }
+}
