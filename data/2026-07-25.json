@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-07-25",
+  "generado": "2026-07-25T07:30:12.773Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 2,
+    "porProfesional": {
+      "Hugo Bertin Riess": 1,
+      "Joaquin  Bernier": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 0,
+    "recurrentes": 2,
+    "total": 2
+  },
+  "citas": {
+    "total": 115,
+    "canceladas": 27,
+    "inasistencias": 4
+  }
+}
