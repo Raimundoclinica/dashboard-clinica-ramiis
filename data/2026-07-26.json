@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-07-26",
+  "generado": "2026-07-26T07:57:28.616Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 6,
+    "porProfesional": {
+      "Ana  Vergara": 1,
+      "Sergio  Galano": 1,
+      "Paola Herrera Martinez": 2,
+      "Luisángel  Milano ": 1,
+      "Daniel Becker Contreras": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 0,
+    "recurrentes": 6,
+    "total": 6
+  },
+  "citas": {
+    "total": 0,
+    "canceladas": 0,
+    "inasistencias": 0
+  }
+}
