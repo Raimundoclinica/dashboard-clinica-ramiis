@@ -1,0 +1,30 @@
+{
+  "fecha": "2026-07-27",
+  "generado": "2026-07-27T11:58:23.511Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 13,
+    "porProfesional": {
+      "Martinez  Martyel": 2,
+      "Sergio  Galano": 4,
+      "Sheila López": 1,
+      "Valentina Flandez Jaramillo": 3,
+      "Christian  Georgi Rodriguez": 1,
+      "Daniel Becker Contreras": 1,
+      "Alvaro San Martin": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 4,
+    "recurrentes": 8,
+    "total": 12
+  },
+  "citas": {
+    "total": 236,
+    "canceladas": 26,
+    "inasistencias": 3
+  }
+}
