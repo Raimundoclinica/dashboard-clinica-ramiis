@@ -1,30 +1,48 @@
 {
   "fecha": "2026-07-27",
-  "generado": "2026-07-27T11:58:23.511Z",
+  "generado": "2026-07-27T13:32:54.687Z",
   "ventas": {
-    "total": 0,
-    "porMedioPago": {}
+    "total": 665490,
+    "porMedioPago": {
+      "Tarjeta de débito": 176510,
+      "Bono Fonasa": 146910,
+      "Efectivo": 342070
+    }
   },
   "atenciones": {
-    "total": 13,
+    "total": 76,
     "porProfesional": {
-      "Martinez  Martyel": 2,
-      "Sergio  Galano": 4,
-      "Sheila López": 1,
-      "Valentina Flandez Jaramillo": 3,
-      "Christian  Georgi Rodriguez": 1,
+      "Sergio  Galano": 19,
+      "Felipe Riquelme": 1,
+      "Valentina Flandez Jaramillo": 10,
+      "Marcelo Stevens": 1,
+      "Monica Majin Bastidas": 3,
+      "Patricio Duery Diaz": 1,
+      "Sheila López": 4,
+      "Hugo Bertin Riess": 4,
+      "David Hernandez Bastardo": 5,
+      "Javiera  Pino": 1,
+      "Ana  Vergara": 6,
+      "Luisángel  Milano ": 2,
+      "Paola Herrera Martinez": 4,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "Christian  Georgi Rodriguez": 3,
+      "German  Campos": 4,
+      "Martinez  Martyel": 3,
+      "Giovanna  Soto": 1,
+      "Daniela  Guevara": 1,
       "Daniel Becker Contreras": 1,
       "Alvaro San Martin": 1
     }
   },
   "pacientes": {
-    "nuevos": 4,
-    "recurrentes": 8,
-    "total": 12
+    "nuevos": 15,
+    "recurrentes": 59,
+    "total": 74
   },
   "citas": {
-    "total": 236,
-    "canceladas": 26,
-    "inasistencias": 3
+    "total": 242,
+    "canceladas": 31,
+    "inasistencias": 5
   }
 }
