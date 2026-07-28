@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-07-28",
+  "generado": "2026-07-28T08:07:54.988Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 10,
+    "porProfesional": {
+      "Christian  Georgi Rodriguez": 1,
+      "Francisca Heusser Killing": 2,
+      "Loreto Saez Ulloa ": 1,
+      "Valentina Flandez Jaramillo": 1,
+      "Hans Bachmann Lovece": 1,
+      "Victor  León Arriagada ": 1,
+      "Paola Herrera Martinez": 1,
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Alvaro San Martin": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 5,
+    "recurrentes": 3,
+    "total": 8
+  },
+  "citas": {
+    "total": 349,
+    "canceladas": 58,
+    "inasistencias": 21
+  }
+}
