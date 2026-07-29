@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-07-29",
+  "generado": "2026-07-29T09:30:52.468Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 7,
+    "porProfesional": {
+      "Paola Herrera Martinez": 1,
+      "Fernando  Diaz": 1,
+      "German  Campos": 1,
+      "Martinez  Martyel": 2,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "Valentina Suarez San Martin": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 2,
+    "recurrentes": 5,
+    "total": 7
+  },
+  "citas": {
+    "total": 296,
+    "canceladas": 50,
+    "inasistencias": 15
+  }
+}
