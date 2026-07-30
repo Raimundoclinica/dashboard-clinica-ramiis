@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-07-30",
+  "generado": "2026-07-30T07:57:31.298Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 5,
+    "porProfesional": {
+      "Isidora Schmidt Vasquez": 1,
+      "Monica Majin Bastidas": 1,
+      "German  Campos": 1,
+      "Paola Herrera Martinez": 1,
+      "Sofia  Cánovas": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 4,
+    "total": 5
+  },
+  "citas": {
+    "total": 397,
+    "canceladas": 74,
+    "inasistencias": 21
+  }
+}
