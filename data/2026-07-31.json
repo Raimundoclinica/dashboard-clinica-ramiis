@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-07-31",
+  "generado": "2026-07-31T09:51:07.295Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 7,
+    "porProfesional": {
+      "Ana  Ziliani": 1,
+      "Joaquin  Bernier": 1,
+      "German  Campos": 2,
+      "Francisca Heusser Killing": 1,
+      "Alex Gual Ortiz": 1,
+      "Hugo Bertin Riess": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 6,
+    "total": 7
+  },
+  "citas": {
+    "total": 257,
+    "canceladas": 42,
+    "inasistencias": 14
+  }
+}
