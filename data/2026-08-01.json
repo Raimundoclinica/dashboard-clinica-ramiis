@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-08-01",
+  "generado": "2026-08-01T07:52:51.247Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 4,
+    "porProfesional": {
+      "Ivanna Paola Nikovic Valdes": 1,
+      "German  Campos": 2,
+      "Ana  Vergara": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 0,
+    "recurrentes": 4,
+    "total": 4
+  },
+  "citas": {
+    "total": 79,
+    "canceladas": 23,
+    "inasistencias": 1
+  }
+}
