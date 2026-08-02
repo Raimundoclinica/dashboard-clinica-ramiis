@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-08-02",
+  "generado": "2026-08-02T07:52:06.563Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 4,
+    "porProfesional": {
+      "Paola Herrera Martinez": 1,
+      "Javiera  Pino": 1,
+      "German  Campos": 1,
+      "Martin  Garcia Huidobro": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 0,
+    "recurrentes": 4,
+    "total": 4
+  },
+  "citas": {
+    "total": 1,
+    "canceladas": 0,
+    "inasistencias": 0
+  }
+}
