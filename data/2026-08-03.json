@@ -1,0 +1,33 @@
+{
+  "fecha": "2026-08-03",
+  "generado": "2026-08-03T12:02:35.150Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 14,
+    "porProfesional": {
+      "Sheila López": 1,
+      "Ana  Vergara": 1,
+      "Monica Majin Bastidas": 1,
+      "Martinez  Martyel": 2,
+      "Hugo Bertin Riess": 1,
+      "Sergio  Galano": 2,
+      "Paola Herrera Martinez": 1,
+      "German  Campos": 3,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "Felipe Riquelme": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 7,
+    "recurrentes": 7,
+    "total": 14
+  },
+  "citas": {
+    "total": 314,
+    "canceladas": 47,
+    "inasistencias": 12
+  }
+}
