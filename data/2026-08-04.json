@@ -1,0 +1,30 @@
+{
+  "fecha": "2026-08-04",
+  "generado": "2026-08-04T08:11:25.212Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 9,
+    "porProfesional": {
+      "Hugo Bertin Riess": 1,
+      "Sheila López": 1,
+      "Valentina Flandez Jaramillo": 2,
+      "Paola Herrera Martinez": 1,
+      "Rodrigo Cárdenas Villarroel": 2,
+      "Ana  Vergara": 1,
+      "Valentina Henriquez García": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 2,
+    "recurrentes": 7,
+    "total": 9
+  },
+  "citas": {
+    "total": 347,
+    "canceladas": 51,
+    "inasistencias": 24
+  }
+}
