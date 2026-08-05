@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-08-05",
+  "generado": "2026-08-05T08:09:25.206Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 6,
+    "porProfesional": {
+      "Isidora Schmidt Vasquez": 1,
+      "Martinez  Martyel": 2,
+      "David Hernandez Bastardo": 1,
+      "Sergio  Galano": 1,
+      "Hugo Bertin Riess": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 0,
+    "recurrentes": 6,
+    "total": 6
+  },
+  "citas": {
+    "total": 336,
+    "canceladas": 49,
+    "inasistencias": 28
+  }
+}
