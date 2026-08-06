@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-08-06",
+  "generado": "2026-08-06T08:08:22.930Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 9,
+    "porProfesional": {
+      "Valentina Henriquez García": 1,
+      "Hugo Bertin Riess": 1,
+      "Martin  Garcia Huidobro": 1,
+      "Sergio  Galano": 1,
+      "Claudio  Mellado": 1,
+      "David Hernandez Bastardo": 1,
+      "Isidora Schmidt Vasquez": 1,
+      "Ana  Vergara": 1,
+      "Martinez  Martyel": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 3,
+    "recurrentes": 6,
+    "total": 9
+  },
+  "citas": {
+    "total": 404,
+    "canceladas": 61,
+    "inasistencias": 22
+  }
+}
