@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-08-07",
+  "generado": "2026-08-07T05:25:29.275Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 5,
+    "porProfesional": {
+      "Charlene  Weaver": 1,
+      "Alvaro San Martin": 2,
+      "Daniela  Guevara": 1,
+      "Christian  Georgi Rodriguez": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 2,
+    "recurrentes": 3,
+    "total": 5
+  },
+  "citas": {
+    "total": 267,
+    "canceladas": 43,
+    "inasistencias": 21
+  }
+}
