@@ -1,27 +1,81 @@
 {
   "fecha": "2026-08-07",
-  "generado": "2026-08-07T05:25:29.275Z",
+  "generado": "2026-08-08T03:59:18.838Z",
   "ventas": {
-    "total": 0,
-    "porMedioPago": {}
+    "total": 9852069,
+    "porMedioPago": {
+      "Tarjeta de crédito": 3612227,
+      "Efectivo": 800900,
+      "Tarjeta de débito": 4919395,
+      "Bono Fonasa": 462330,
+      "Bono": 24950,
+      "Seguro Complementario Previsión": 32267
+    }
   },
   "atenciones": {
-    "total": 5,
+    "total": 169,
     "porProfesional": {
+      "Martin  Garcia Huidobro": 3,
+      "Sofia  Cánovas": 4,
+      "Ana  Vergara": 6,
+      "Carola  González": 3,
+      "Sergio  Galano": 21,
+      "Valentina Flandez Jaramillo": 11,
+      "Valentina Suarez San Martin": 2,
+      "Sebastian  Porflit Fuentes": 1,
+      "Hugo Bertin Riess": 6,
+      "Centro Otorrino Exámenes": 6,
+      "Felipe Riquelme": 3,
+      "Monica Majin Bastidas": 1,
+      "Victor  León Arriagada ": 1,
+      "David  Lopez Olmos": 4,
+      "Alex Gual Ortiz": 4,
+      "Erik Gallegos  Matamala ": 2,
+      "Martinez  Martyel": 6,
+      "Christian  Georgi Rodriguez": 10,
+      "Alvaro San Martin": 4,
+      "Rodrigo Cárdenas Villarroel": 2,
+      "David Hernandez Bastardo": 7,
+      "Maria Jose Barrientos": 2,
+      "Sheila López": 1,
+      "German  Campos": 13,
+      "Ynes Carolina Arredondo Mendoza": 3,
+      "Fernando  Diaz": 1,
+      "Lorena   Rodríguez Riedel": 1,
+      "Rubén Alejandro  Ramis Gutierrez": 2,
+      "Loreto Saez Ulloa ": 2,
+      "Barbara Diaz Laser Diodo": 3,
+      "Nickol Figueroa": 1,
+      "Paola Herrera Martinez": 1,
+      "Valentina Henriquez García": 1,
+      "Javiera  Pino": 1,
+      "Hans Bachmann Lovece": 1,
+      "Sin asignar": 9,
+      "Miguel  Arredondo": 1,
+      "Lab Oftalmología Camila Martínez": 2,
+      "Tyndall Volosky": 2,
+      "María Jesus  Gaete": 1,
+      "Daniel Becker Contreras": 1,
+      "Giovanna  Soto": 1,
+      "Lorena Beatriz Valenzuela Suazo": 1,
+      "Francisca Heusser Killing": 2,
+      "Ivanna Paola Nikovic Valdes": 2,
+      "Claudio  Mellado": 1,
+      "Elio  Romero": 1,
       "Charlene  Weaver": 1,
-      "Alvaro San Martin": 2,
-      "Daniela  Guevara": 1,
-      "Christian  Georgi Rodriguez": 1
+      "Marcelo Stevens": 1,
+      "Ana  Ziliani": 2,
+      "Daniela  Guevara": 1
     }
   },
   "pacientes": {
-    "nuevos": 2,
-    "recurrentes": 3,
-    "total": 5
+    "nuevos": 43,
+    "recurrentes": 106,
+    "total": 149
   },
   "citas": {
-    "total": 267,
-    "canceladas": 43,
-    "inasistencias": 21
+    "total": 319,
+    "canceladas": 69,
+    "inasistencias": 18
   }
 }
