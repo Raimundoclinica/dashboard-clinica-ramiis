@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-08-09",
+  "generado": "2026-08-09T04:05:01.648Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 2,
+    "porProfesional": {
+      "Hans Bachmann Lovece": 1,
+      "Sergio  Galano": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 1,
+    "total": 2
+  },
+  "citas": {
+    "total": 1,
+    "canceladas": 1,
+    "inasistencias": 0
+  }
+}
