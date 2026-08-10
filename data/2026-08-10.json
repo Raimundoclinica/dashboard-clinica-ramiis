@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-08-10",
+  "generado": "2026-08-10T05:08:45.927Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 7,
+    "porProfesional": {
+      "Martin  Garcia Huidobro": 1,
+      "Hugo Bertin Riess": 1,
+      "Sergio  Galano": 2,
+      "Valentina Flandez Jaramillo": 2,
+      "Valentina Henriquez García": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 6,
+    "total": 7
+  },
+  "citas": {
+    "total": 264,
+    "canceladas": 39,
+    "inasistencias": 11
+  }
+}
