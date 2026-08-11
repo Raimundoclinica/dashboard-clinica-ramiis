@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-08-11",
+  "generado": "2026-08-11T04:07:20.312Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 4,
+    "porProfesional": {
+      "Erik Gallegos  Matamala ": 1,
+      "Sin asignar": 1,
+      "Felipe Riquelme": 1,
+      "Daniel Becker Contreras": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 2,
+    "recurrentes": 1,
+    "total": 3
+  },
+  "citas": {
+    "total": 306,
+    "canceladas": 47,
+    "inasistencias": 23
+  }
+}
