@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-08-12",
+  "generado": "2026-08-12T05:18:57.280Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 8,
+    "porProfesional": {
+      "Lorena   Rodríguez Riedel": 1,
+      "Claudio  Mellado": 1,
+      "Valentina Flandez Jaramillo": 1,
+      "Ana  Ziliani": 1,
+      "Ivanna Paola Nikovic Valdes": 2,
+      "Sergio  Galano": 2
+    }
+  },
+  "pacientes": {
+    "nuevos": 0,
+    "recurrentes": 8,
+    "total": 8
+  },
+  "citas": {
+    "total": 316,
+    "canceladas": 51,
+    "inasistencias": 16
+  }
+}
