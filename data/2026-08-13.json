@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-08-13",
+  "generado": "2026-08-13T05:23:14.092Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 9,
+    "porProfesional": {
+      "Ana  Ziliani": 1,
+      "Ana  Vergara": 1,
+      "Monica Majin Bastidas": 1,
+      "German  Campos": 1,
+      "Sergio  Galano": 1,
+      "Martin  Garcia Huidobro": 1,
+      "Ruben Gerardo Ramis  Olivares ": 1,
+      "Lorena   Rodríguez Riedel": 1,
+      "Rodrigo Cárdenas Villarroel": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 3,
+    "recurrentes": 6,
+    "total": 9
+  },
+  "citas": {
+    "total": 416,
+    "canceladas": 64,
+    "inasistencias": 25
+  }
+}
