@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-08-14",
+  "generado": "2026-08-14T05:20:03.726Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 7,
+    "porProfesional": {
+      "Barbara Diaz Laser Diodo": 1,
+      "Martinez  Martyel": 2,
+      "Daniel Becker Contreras": 1,
+      "German  Campos": 1,
+      "Luisángel  Milano ": 1,
+      "Sofia  Cánovas": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 2,
+    "recurrentes": 5,
+    "total": 7
+  },
+  "citas": {
+    "total": 287,
+    "canceladas": 42,
+    "inasistencias": 25
+  }
+}
