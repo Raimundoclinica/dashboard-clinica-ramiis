@@ -1,29 +1,78 @@
 {
   "fecha": "2026-08-14",
-  "generado": "2026-08-14T05:20:03.726Z",
+  "generado": "2026-08-15T00:04:24.554Z",
   "ventas": {
-    "total": 0,
-    "porMedioPago": {}
+    "total": 13634522,
+    "porMedioPago": {
+      "Tarjeta de débito": 5224048,
+      "Bono Fonasa": 547000,
+      "Efectivo": 838239,
+      "Tarjeta de crédito": 6967890,
+      "Seguro Complementario Previsión": 32585,
+      "Bono": 24760
+    }
   },
   "atenciones": {
-    "total": 7,
+    "total": 213,
     "porProfesional": {
-      "Barbara Diaz Laser Diodo": 1,
-      "Martinez  Martyel": 2,
-      "Daniel Becker Contreras": 1,
-      "German  Campos": 1,
-      "Luisángel  Milano ": 1,
-      "Sofia  Cánovas": 1
+      "Maria Jose Barrientos": 2,
+      "Ana  Vergara": 5,
+      "Valentina Henriquez García": 3,
+      "Martinez  Martyel": 13,
+      "Valentina Flandez Jaramillo": 14,
+      "Ynes Carolina Arredondo Mendoza": 2,
+      "Centro Otorrino Exámenes": 14,
+      "Alex Gual Ortiz": 6,
+      "Sheila López": 2,
+      "Javiera  Pino": 1,
+      "Loreto Saez Ulloa ": 1,
+      "Hugo Bertin Riess": 16,
+      "Sebastian  Porflit Fuentes": 3,
+      "Rubén Alejandro  Ramis Gutierrez": 3,
+      "Giovanna  Soto": 1,
+      "Sergio  Galano": 34,
+      "Alexis Andrés  Cuevas Aguilar": 2,
+      "Fototerapia Karen Rodriguez": 3,
+      "Hans Bachmann Lovece": 1,
+      "David Hernandez Bastardo": 5,
+      "María Jesus  Gaete": 2,
+      "Lorena   Rodríguez Riedel": 1,
+      "Barbara Diaz Laser Diodo": 7,
+      "Monica Majin Bastidas": 1,
+      "Daniel Becker Contreras": 3,
+      "Ana  Ziliani": 6,
+      "Tyndall Volosky": 4,
+      "Daniela  Guevara": 3,
+      "German  Campos": 6,
+      "Paola Herrera Martinez": 4,
+      "Charlene  Weaver": 1,
+      "Patricio Duery Diaz": 1,
+      "Lab Oftalmología Camila Martínez": 6,
+      "Sin asignar": 5,
+      "Alvaro San Martin": 1,
+      "Sofia  Cánovas": 7,
+      "Isidora Schmidt Vasquez": 4,
+      "Rodrigo Cárdenas Villarroel": 3,
+      "Valentina Suarez San Martin": 2,
+      "Felipe Andai": 1,
+      "Felipe Riquelme": 1,
+      "Christian  Georgi Rodriguez": 6,
+      "Fernando  Diaz": 1,
+      "Victor  León Arriagada ": 1,
+      "Francisca Heusser Killing": 1,
+      "Claudio  Mellado": 2,
+      "Carola  González": 1,
+      "Luisángel  Milano ": 1
     }
   },
   "pacientes": {
-    "nuevos": 2,
-    "recurrentes": 5,
-    "total": 7
+    "nuevos": 49,
+    "recurrentes": 141,
+    "total": 190
   },
   "citas": {
-    "total": 287,
-    "canceladas": 42,
-    "inasistencias": 25
+    "total": 338,
+    "canceladas": 59,
+    "inasistencias": 26
   }
 }
