@@ -1,0 +1,43 @@
+{
+  "fecha": "2026-08-16",
+  "generado": "2026-08-16T23:56:23.363Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 51,
+    "porProfesional": {
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Hugo Bertin Riess": 8,
+      "Monica Majin Bastidas": 4,
+      "Loreto Saez Ulloa ": 2,
+      "Sergio  Galano": 6,
+      "Daniela  Guevara": 5,
+      "Christian  Georgi Rodriguez": 1,
+      "Sheila López": 2,
+      "Martinez  Martyel": 4,
+      "German  Campos": 3,
+      "Luisángel  Milano ": 1,
+      "Valentina Flandez Jaramillo": 1,
+      "Miguel  Arredondo": 2,
+      "Rodrigo Cárdenas Villarroel": 3,
+      "Javiera  Pino": 2,
+      "Valentina Henriquez García": 1,
+      "Loreto Borquez": 1,
+      "David  Lopez Olmos": 1,
+      "Alvaro San Martin": 2,
+      "Paola Herrera Martinez": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 14,
+    "recurrentes": 33,
+    "total": 47
+  },
+  "citas": {
+    "total": 1,
+    "canceladas": 1,
+    "inasistencias": 0
+  }
+}
