@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-08-18",
+  "generado": "2026-08-19T00:02:17.368Z",
+  "ventas": {
+    "total": 10817463,
+    "porMedioPago": {
+      "Tarjeta de débito": 6181591,
+      "Efectivo": 2583765,
+      "Tarjeta de crédito": 1001920,
+      "Bono Fonasa": 908990,
+      "Seguro Complementario Previsión": 101197,
+      "Bono": 40000
+    }
+  },
+  "atenciones": {
+    "total": 284,
+    "porProfesional": {
+      "Hugo Bertin Riess": 12,
+      "Sergio  Galano": 42,
+      "Paola Herrera Martinez": 4,
+      "Monica Majin Bastidas": 7,
+      "Sheila López": 18,
+      "Loreto Saez Ulloa ": 7,
+      "Valentina Flandez Jaramillo": 23,
+      "David Hernandez Bastardo": 9,
+      "Nickol Figueroa": 1,
+      "Martinez  Martyel": 5,
+      "Barbara Francisca    Duhalde Fuentes": 1,
+      "Rubén Alejandro  Ramis Gutierrez": 7,
+      "German  Campos": 10,
+      "Sebastian  Porflit Fuentes": 3,
+      "Rodrigo Cárdenas Villarroel": 4,
+      "Christian  Georgi Rodriguez": 6,
+      "David  Lopez Olmos": 3,
+      "Ana  Vergara": 6,
+      "Ruben Gerardo Ramis  Olivares ": 5,
+      "María Jesus  Gaete": 5,
+      "Lab Oftalmología Camila Martínez": 11,
+      "Barbara Diaz Laser Diodo": 4,
+      "Loreto Borquez": 1,
+      "Alex Gual Ortiz": 4,
+      "Sofia  Cánovas": 1,
+      "Centro Otorrino Exámenes": 8,
+      "Elio  Romero": 2,
+      "Claudio  Mellado": 3,
+      "Daniela  Guevara": 1,
+      "Felipe Riquelme": 14,
+      "Giovanna  Soto": 5,
+      "Valentina Henriquez García": 3,
+      "Daniel Becker Contreras": 3,
+      "Lorena   Rodríguez Riedel": 3,
+      "Hans Bachmann Lovece": 5,
+      "Alvaro San Martin": 5,
+      "Joaquin  Bernier": 1,
+      "Victor  León Arriagada ": 3,
+      "Carola  González": 2,
+      "Sin asignar": 6,
+      "Francisca Heusser Killing": 2,
+      "Gonzalo Alejandro Peña Arteche": 1,
+      "Javiera  Pino": 2,
+      "Valentina Suarez San Martin": 1,
+      "Maria Jose Barrientos": 1,
+      "Ana  Ziliani": 1,
+      "Felipe Andai": 5,
+      "Tyndall Volosky": 4,
+      "Alexis Andrés  Cuevas Aguilar": 2,
+      "Fernando  Diaz": 1,
+      "Isidora Schmidt Vasquez": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 57,
+    "recurrentes": 195,
+    "total": 252
+  },
+  "citas": {
+    "total": 384,
+    "canceladas": 86,
+    "inasistencias": 25
+  }
+}
