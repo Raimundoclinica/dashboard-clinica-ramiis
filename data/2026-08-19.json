@@ -1,0 +1,78 @@
+{
+  "fecha": "2026-08-19",
+  "generado": "2026-08-20T00:03:19.268Z",
+  "ventas": {
+    "total": 12361089,
+    "porMedioPago": {
+      "Tarjeta de débito": 5200153,
+      "Seguro Complementario Previsión": 166027,
+      "Bono Fonasa": 1378390,
+      "Efectivo": 482290,
+      "Tarjeta de crédito": 2935159,
+      "Transferencia electrónica": 2182000,
+      "Bono": 17070
+    }
+  },
+  "atenciones": {
+    "total": 249,
+    "porProfesional": {
+      "Monica Majin Bastidas": 15,
+      "Carola  González": 3,
+      "Sergio  Galano": 43,
+      "Claudio  Mellado": 3,
+      "David Hernandez Bastardo": 8,
+      "Isidora Schmidt Vasquez": 7,
+      "Hugo Bertin Riess": 13,
+      "Centro Otorrino Exámenes": 13,
+      "Charlene  Weaver": 1,
+      "Martinez  Martyel": 10,
+      "Christian  Georgi Rodriguez": 5,
+      "Victor  León Arriagada ": 3,
+      "Lorena   Rodríguez Riedel": 1,
+      "Paola Herrera Martinez": 4,
+      "Nickol Figueroa": 3,
+      "Fototerapia Karen Rodriguez": 1,
+      "David  Lopez Olmos": 5,
+      "Macarena  De La Fuente": 1,
+      "Hans Bachmann Lovece": 6,
+      "Sin asignar": 8,
+      "Barbara Francisca    Duhalde Fuentes": 5,
+      "Lab Oftalmología Camila Martínez": 5,
+      "Sofia  Cánovas": 4,
+      "Tyndall Volosky": 7,
+      "Maria Jose Barrientos": 3,
+      "Gonzalo Alejandro Peña Arteche": 3,
+      "Valentina Henriquez García": 1,
+      "Sebastian  Porflit Fuentes": 3,
+      "German  Campos": 8,
+      "Joaquin  Bernier": 4,
+      "Fernando  Diaz": 2,
+      "Felipe Riquelme": 5,
+      "Alvaro San Martin": 10,
+      "Valentina Suarez San Martin": 1,
+      "Ana  Vergara": 3,
+      "Elio  Romero": 1,
+      "Ana  Ziliani": 8,
+      "Giovanna  Soto": 1,
+      "Rodrigo Cárdenas Villarroel": 8,
+      "Valentina Flandez Jaramillo": 4,
+      "Alex Gual Ortiz": 1,
+      "Javiera  Pino": 1,
+      "Ynes Carolina Arredondo Mendoza": 3,
+      "Loreto Saez Ulloa ": 2,
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Daniela  Guevara": 1,
+      "Sheila López": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 42,
+    "recurrentes": 176,
+    "total": 218
+  },
+  "citas": {
+    "total": 411,
+    "canceladas": 81,
+    "inasistencias": 17
+  }
+}
