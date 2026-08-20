@@ -1,0 +1,78 @@
+{
+  "fecha": "2026-08-20",
+  "generado": "2026-08-20T23:48:18.480Z",
+  "ventas": {
+    "total": 12025352,
+    "porMedioPago": {
+      "Tarjeta de débito": 5470823,
+      "Bono": 7690,
+      "Bono Fonasa": 1157710,
+      "Tarjeta de crédito": 2562542,
+      "Efectivo": 721579,
+      "Seguro Complementario Previsión": 105008,
+      "Cheque": 2000000
+    }
+  },
+  "atenciones": {
+    "total": 214,
+    "porProfesional": {
+      "Marcelo Stevens": 1,
+      "Tyndall Volosky": 10,
+      "Sergio  Galano": 24,
+      "Lorena   Rodríguez Riedel": 4,
+      "Martinez  Martyel": 6,
+      "Valentina Flandez Jaramillo": 7,
+      "Hans Bachmann Lovece": 6,
+      "Maria Jose Barrientos": 2,
+      "Christian  Georgi Rodriguez": 6,
+      "Felipe Riquelme": 3,
+      "Rubén Alejandro  Ramis Gutierrez": 3,
+      "Sheila López": 2,
+      "Giovanna  Soto": 1,
+      "Hugo Bertin Riess": 11,
+      "Valentina Henriquez García": 5,
+      "German  Campos": 8,
+      "Monica Majin Bastidas": 14,
+      "Ana  Ziliani": 3,
+      "David  Lopez Olmos": 2,
+      "Sin asignar": 16,
+      "Francisca Heusser Killing": 3,
+      "Victor  León Arriagada ": 1,
+      "Ana  Vergara": 8,
+      "David Hernandez Bastardo": 10,
+      "Valentina Suarez San Martin": 2,
+      "Centro Otorrino Exámenes": 3,
+      "Ivanna Paola Nikovic Valdes": 3,
+      "Sofia  Cánovas": 3,
+      "Alexis Andrés  Cuevas Aguilar": 1,
+      "Daniel Becker Contreras": 2,
+      "Rodrigo Cárdenas Villarroel": 4,
+      "Javiera  Pino": 1,
+      "Alvaro San Martin": 1,
+      "Nickol Figueroa": 4,
+      "Gonzalo Alejandro Peña Arteche": 5,
+      "Claudio  Mellado": 4,
+      "Ynes Carolina Arredondo Mendoza": 3,
+      "Ruben Gerardo Ramis  Olivares ": 2,
+      "Alex Gual Ortiz": 5,
+      "Macarena  De La Fuente": 2,
+      "Patricio Duery Diaz": 1,
+      "Loreto Saez Ulloa ": 1,
+      "Charlene  Weaver": 2,
+      "Daniela  Guevara": 1,
+      "Paola Herrera Martinez": 5,
+      "Isidora Schmidt Vasquez": 1,
+      "Carola  González": 2
+    }
+  },
+  "pacientes": {
+    "nuevos": 39,
+    "recurrentes": 155,
+    "total": 194
+  },
+  "citas": {
+    "total": 403,
+    "canceladas": 79,
+    "inasistencias": 18
+  }
+}
