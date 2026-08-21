@@ -1,0 +1,79 @@
+{
+  "fecha": "2026-08-21",
+  "generado": "2026-08-21T23:46:49.008Z",
+  "ventas": {
+    "total": 7468747,
+    "porMedioPago": {
+      "Tarjeta de débito": 5004362,
+      "Bono Fonasa": 716420,
+      "Efectivo": 199100,
+      "Tarjeta de crédito": 1237149,
+      "Seguro Complementario Previsión": 95746,
+      "Bono": 215970
+    }
+  },
+  "atenciones": {
+    "total": 227,
+    "porProfesional": {
+      "Martinez  Martyel": 16,
+      "Sheila López": 4,
+      "Sofia  Cánovas": 8,
+      "Sergio  Galano": 26,
+      "Ana  Vergara": 7,
+      "Centro Otorrino Exámenes": 12,
+      "Fernando  Diaz": 3,
+      "David  Lopez Olmos": 2,
+      "Rodrigo Cárdenas Villarroel": 3,
+      "Felipe Andai": 6,
+      "Hugo Bertin Riess": 11,
+      "Felipe Riquelme": 8,
+      "Ynes Carolina Arredondo Mendoza": 2,
+      "Patricio Duery Diaz": 1,
+      "Valentina Flandez Jaramillo": 13,
+      "Valentina Henriquez García": 4,
+      "Claudio  Mellado": 2,
+      "Nashmia Gomez": 1,
+      "Barbara Diaz Laser Diodo": 5,
+      "Tyndall Volosky": 7,
+      "Elio  Romero": 3,
+      "Alvaro San Martin": 5,
+      "Paola Herrera Martinez": 3,
+      "David Hernandez Bastardo": 7,
+      "Alex Gual Ortiz": 4,
+      "Erik Gallegos  Matamala ": 2,
+      "Victor  León Arriagada ": 1,
+      "Lorena   Rodríguez Riedel": 4,
+      "Joaquin  Bernier": 3,
+      "Christian  Georgi Rodriguez": 1,
+      "Sin asignar": 13,
+      "Ana  Ziliani": 7,
+      "Maria Jose Barrientos": 2,
+      "Isidora Schmidt Vasquez": 3,
+      "Hans Bachmann Lovece": 1,
+      "Daniela  Guevara": 2,
+      "Macarena  De La Fuente": 1,
+      "Giovanna  Soto": 3,
+      "Lab Oftalmología Camila Martínez": 4,
+      "German  Campos": 4,
+      "Francisca Heusser Killing": 2,
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Barbara Francisca    Duhalde Fuentes": 1,
+      "Luisángel  Milano ": 1,
+      "Sebastian  Porflit Fuentes": 2,
+      "Valentina Suarez San Martin": 2,
+      "Monica Majin Bastidas": 2,
+      "Charlene  Weaver": 1,
+      "Daniel Becker Contreras": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 47,
+    "recurrentes": 163,
+    "total": 210
+  },
+  "citas": {
+    "total": 314,
+    "canceladas": 55,
+    "inasistencias": 15
+  }
+}
