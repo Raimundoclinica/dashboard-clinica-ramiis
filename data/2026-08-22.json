@@ -1,0 +1,50 @@
+{
+  "fecha": "2026-08-22",
+  "generado": "2026-08-22T23:41:32.582Z",
+  "ventas": {
+    "total": 3126396,
+    "porMedioPago": {
+      "Tarjeta de débito": 2776759,
+      "Bono Fonasa": 105730,
+      "Efectivo": 34420,
+      "Bono": 197800,
+      "Seguro Complementario Previsión": 11687
+    }
+  },
+  "atenciones": {
+    "total": 54,
+    "porProfesional": {
+      "Sergio  Galano": 10,
+      "Paola Herrera Martinez": 3,
+      "Rodrigo Cárdenas Villarroel": 2,
+      "Hugo Bertin Riess": 2,
+      "Charlene  Weaver": 1,
+      "Ana  Vergara": 6,
+      "Alvaro San Martin": 1,
+      "Valentina Flandez Jaramillo": 7,
+      "David Hernandez Bastardo": 2,
+      "German  Campos": 2,
+      "David  Lopez Olmos": 2,
+      "Lorena   Rodríguez Riedel": 2,
+      "Felipe Andai": 3,
+      "Christian  Georgi Rodriguez": 1,
+      "Luisángel  Milano ": 1,
+      "Francisca Heusser Killing": 2,
+      "Giovanna  Soto": 1,
+      "Elio  Romero": 1,
+      "Martinez  Martyel": 2,
+      "Ynes Carolina Arredondo Mendoza": 2,
+      "Valentina Suarez San Martin": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 14,
+    "recurrentes": 38,
+    "total": 52
+  },
+  "citas": {
+    "total": 108,
+    "canceladas": 25,
+    "inasistencias": 14
+  }
+}
