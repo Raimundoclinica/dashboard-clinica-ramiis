@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-08-24",
+  "generado": "2026-08-24T23:46:28.218Z",
+  "ventas": {
+    "total": 11003867,
+    "porMedioPago": {
+      "Tarjeta de débito": 6876845,
+      "Tarjeta de crédito": 1910196,
+      "Bono Fonasa": 1075920,
+      "Efectivo": 932037,
+      "Seguro Complementario Previsión": 190869,
+      "Bono": 18000
+    }
+  },
+  "atenciones": {
+    "total": 331,
+    "porProfesional": {
+      "Sheila López": 16,
+      "Rubén Alejandro  Ramis Gutierrez": 9,
+      "Christian  Georgi Rodriguez": 6,
+      "Martinez  Martyel": 4,
+      "Valentina Henriquez García": 2,
+      "Alex Gual Ortiz": 6,
+      "German  Campos": 13,
+      "Sergio  Galano": 56,
+      "Ana  Ziliani": 2,
+      "Daniela  Guevara": 1,
+      "Gonzalo Alejandro Peña Arteche": 2,
+      "Nashmia Gomez": 2,
+      "Hugo Bertin Riess": 17,
+      "Valentina Flandez Jaramillo": 20,
+      "Francisca Heusser Killing": 4,
+      "Lorena   Rodríguez Riedel": 7,
+      "Centro Otorrino Exámenes": 12,
+      "Sin asignar": 12,
+      "Monica Majin Bastidas": 17,
+      "Tyndall Volosky": 5,
+      "Ivanna Paola Nikovic Valdes": 2,
+      "David Hernandez Bastardo": 14,
+      "Fernando  Diaz": 3,
+      "Erik Gallegos  Matamala ": 4,
+      "Hans Bachmann Lovece": 7,
+      "Felipe Riquelme": 11,
+      "Lab Oftalmología Camila Martínez": 8,
+      "Ana  Vergara": 12,
+      "Barbara Francisca    Duhalde Fuentes": 3,
+      "Loreto Saez Ulloa ": 2,
+      "Barbara Diaz Laser Diodo": 6,
+      "Paola Herrera Martinez": 6,
+      "Rodrigo Cárdenas Villarroel": 6,
+      "Felipe Andai": 4,
+      "Alvaro San Martin": 2,
+      "Macarena  De La Fuente": 1,
+      "Valentina Suarez San Martin": 1,
+      "Sofia  Cánovas": 2,
+      "Isidora Schmidt Vasquez": 3,
+      "Luisángel  Milano ": 4,
+      "Ruben Gerardo Ramis  Olivares ": 1,
+      "Claudio  Mellado": 2,
+      "Victor  León Arriagada ": 1,
+      "Patricio Duery Diaz": 3,
+      "Alexis Andrés  Cuevas Aguilar": 2,
+      "Daniel Becker Contreras": 2,
+      "Miguel  Arredondo": 1,
+      "Charlene  Weaver": 1,
+      "Carola  González": 2,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "Elio  Romero": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 88,
+    "recurrentes": 212,
+    "total": 300
+  },
+  "citas": {
+    "total": 336,
+    "canceladas": 48,
+    "inasistencias": 15
+  }
+}
