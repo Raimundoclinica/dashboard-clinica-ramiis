@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-08-25",
+  "generado": "2026-08-25T23:47:41.495Z",
+  "ventas": {
+    "total": 7028412,
+    "porMedioPago": {
+      "Tarjeta de débito": 3705387,
+      "Seguro Complementario Previsión": 109583,
+      "Bono Fonasa": 644850,
+      "Tarjeta de crédito": 1679682,
+      "Efectivo": 785060,
+      "Bono": 23450,
+      "Transferencia electrónica": 80400
+    }
+  },
+  "atenciones": {
+    "total": 235,
+    "porProfesional": {
+      "Sheila López": 22,
+      "Giovanna  Soto": 5,
+      "Nickol Figueroa": 1,
+      "David  Lopez Olmos": 4,
+      "Felipe Riquelme": 10,
+      "Monica Majin Bastidas": 9,
+      "Christian  Georgi Rodriguez": 5,
+      "Sergio  Galano": 30,
+      "Barbara Francisca    Duhalde Fuentes": 3,
+      "Valentina Flandez Jaramillo": 12,
+      "Hans Bachmann Lovece": 7,
+      "Alvaro San Martin": 3,
+      "David Hernandez Bastardo": 9,
+      "Hugo Bertin Riess": 9,
+      "Barbara Diaz Laser Diodo": 2,
+      "German  Campos": 7,
+      "Victor  León Arriagada ": 2,
+      "Lorena   Rodríguez Riedel": 3,
+      "Sofia  Cánovas": 1,
+      "Ruben Gerardo Ramis  Olivares ": 2,
+      "Centro Otorrino Exámenes": 3,
+      "Luisángel  Milano ": 1,
+      "Ana  Vergara": 6,
+      "Claudio  Mellado": 4,
+      "Rodrigo Cárdenas Villarroel": 4,
+      "Lab Oftalmología Camila Martínez": 9,
+      "Alexis Andrés  Cuevas Aguilar": 4,
+      "Nashmia Gomez": 1,
+      "Paola Herrera Martinez": 4,
+      "Ana  Ziliani": 7,
+      "Fernando  Diaz": 3,
+      "Sin asignar": 6,
+      "María Jesus  Gaete": 5,
+      "Martinez  Martyel": 4,
+      "Daniela  Guevara": 3,
+      "Javiera  Pino": 3,
+      "Tyndall Volosky": 1,
+      "Andrea Gutierrez": 1,
+      "Daniel Becker Contreras": 2,
+      "Joaquin  Bernier": 2,
+      "Maria Jose Barrientos": 3,
+      "Valentina Henriquez García": 1,
+      "Gonzalo Alejandro Peña Arteche": 2,
+      "Isidora Schmidt Vasquez": 3,
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Rubén Alejandro  Ramis Gutierrez": 2,
+      "Francisca Heusser Killing": 1,
+      "Felipe Andai": 1,
+      "Loreto Saez Ulloa ": 1,
+      "Carola  González": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 52,
+    "recurrentes": 154,
+    "total": 206
+  },
+  "citas": {
+    "total": 340,
+    "canceladas": 69,
+    "inasistencias": 31
+  }
+}
