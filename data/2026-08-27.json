@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-08-27",
+  "generado": "2026-08-27T04:34:16.346Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 3,
+    "porProfesional": {
+      "David Hernandez Bastardo": 1,
+      "Monica Majin Bastidas": 1,
+      "Hans Bachmann Lovece": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 2,
+    "total": 3
+  },
+  "citas": {
+    "total": 385,
+    "canceladas": 54,
+    "inasistencias": 15
+  }
+}
