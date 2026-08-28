@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-08-28",
+  "generado": "2026-08-28T06:58:16.903Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 6,
+    "porProfesional": {
+      "German  Campos": 2,
+      "Sergio  Galano": 1,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "Felipe Andai": 1,
+      "Rodrigo Cárdenas Villarroel": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 5,
+    "total": 6
+  },
+  "citas": {
+    "total": 258,
+    "canceladas": 40,
+    "inasistencias": 11
+  }
+}
