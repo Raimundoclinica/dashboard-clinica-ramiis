@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-08-29",
+  "generado": "2026-08-29T04:12:05.522Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 1,
+    "porProfesional": {
+      "Valentina Flandez Jaramillo": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 1,
+    "recurrentes": 0,
+    "total": 1
+  },
+  "citas": {
+    "total": 100,
+    "canceladas": 25,
+    "inasistencias": 6
+  }
+}
