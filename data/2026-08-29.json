@@ -1,24 +1,60 @@
 {
   "fecha": "2026-08-29",
-  "generado": "2026-08-29T04:12:05.522Z",
+  "generado": "2026-08-30T01:21:35.076Z",
   "ventas": {
-    "total": 0,
-    "porMedioPago": {}
+    "total": 2745393,
+    "porMedioPago": {
+      "Tarjeta de débito": 2120649,
+      "Efectivo": 515000,
+      "Tarjeta de crédito": 77000,
+      "Bono Fonasa": 28810,
+      "Seguro Complementario Previsión": 3934
+    }
   },
   "atenciones": {
-    "total": 1,
+    "total": 71,
     "porProfesional": {
-      "Valentina Flandez Jaramillo": 1
+      "David Hernandez Bastardo": 1,
+      "Sergio  Galano": 10,
+      "Martinez  Martyel": 4,
+      "Fernando  Diaz": 1,
+      "Loreto Saez Ulloa ": 2,
+      "Alexis Andrés  Cuevas Aguilar": 1,
+      "Daniel Becker Contreras": 1,
+      "Hans Bachmann Lovece": 2,
+      "Lorena   Rodríguez Riedel": 4,
+      "Daniela  Guevara": 1,
+      "German  Campos": 1,
+      "Luisángel  Milano ": 1,
+      "Felipe Riquelme": 2,
+      "Javiera  Pino": 1,
+      "Paola Herrera Martinez": 1,
+      "Monica Majin Bastidas": 1,
+      "Sin asignar": 6,
+      "Nickol Figueroa": 3,
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Barbara Francisca    Duhalde Fuentes": 1,
+      "Maria Jose Barrientos": 2,
+      "Sebastian  Porflit Fuentes": 2,
+      "Valentina Suarez San Martin": 1,
+      "Victor  León Arriagada ": 2,
+      "Elio  Romero": 2,
+      "Centro Otorrino Exámenes": 2,
+      "Ynes Carolina Arredondo Mendoza": 3,
+      "Claudio  Mellado": 1,
+      "Christian  Georgi Rodriguez": 1,
+      "Valentina Flandez Jaramillo": 9,
+      "Rodrigo Cárdenas Villarroel": 1
     }
   },
   "pacientes": {
-    "nuevos": 1,
-    "recurrentes": 0,
-    "total": 1
+    "nuevos": 17,
+    "recurrentes": 50,
+    "total": 67
   },
   "citas": {
-    "total": 100,
-    "canceladas": 25,
-    "inasistencias": 6
+    "total": 113,
+    "canceladas": 27,
+    "inasistencias": 10
   }
 }
