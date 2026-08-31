@@ -1,0 +1,45 @@
+{
+  "fecha": "2026-08-30",
+  "generado": "2026-08-31T01:25:21.723Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 44,
+    "porProfesional": {
+      "Sergio  Galano": 10,
+      "Felipe Riquelme": 1,
+      "Daniela  Guevara": 1,
+      "Martinez  Martyel": 1,
+      "Monica Majin Bastidas": 4,
+      "Christian  Georgi Rodriguez": 1,
+      "Hugo Bertin Riess": 4,
+      "Valentina Flandez Jaramillo": 2,
+      "Barbara Diaz Laser Diodo": 1,
+      "Valentina Henriquez García": 1,
+      "David Hernandez Bastardo": 2,
+      "German  Campos": 1,
+      "Marcelo Stevens": 1,
+      "Rodrigo Cárdenas Villarroel": 3,
+      "Alvaro San Martin": 2,
+      "Giovanna  Soto": 1,
+      "Paola Herrera Martinez": 1,
+      "Javiera  Pino": 2,
+      "Ana  Vergara": 2,
+      "Loreto Saez Ulloa ": 1,
+      "David  Lopez Olmos": 1,
+      "Valentina Suarez San Martin": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 11,
+    "recurrentes": 32,
+    "total": 43
+  },
+  "citas": {
+    "total": 0,
+    "canceladas": 0,
+    "inasistencias": 0
+  }
+}
