@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-08-31",
+  "generado": "2026-09-01T01:56:19.477Z",
+  "ventas": {
+    "total": 14172128,
+    "porMedioPago": {
+      "Tarjeta de crédito": 2555751,
+      "Tarjeta de débito": 5208934,
+      "Bono Fonasa": 722100,
+      "Efectivo": 2856630,
+      "Transferencia electrónica": 2763733,
+      "Seguro Complementario Previsión": 64980
+    }
+  },
+  "atenciones": {
+    "total": 321,
+    "porProfesional": {
+      "Sergio  Galano": 66,
+      "Ruben Gerardo Ramis  Olivares ": 5,
+      "Hugo Bertin Riess": 13,
+      "Sheila López": 6,
+      "Carola  González": 2,
+      "Martinez  Martyel": 17,
+      "Valentina Flandez Jaramillo": 8,
+      "Javiera  Pino": 5,
+      "Alexis Andrés  Cuevas Aguilar": 5,
+      "Paola Herrera Martinez": 3,
+      "Hans Bachmann Lovece": 6,
+      "German  Campos": 10,
+      "Victor  León Arriagada ": 4,
+      "Erik Gallegos  Matamala ": 7,
+      "Rodrigo Cárdenas Villarroel": 7,
+      "Alex Gual Ortiz": 6,
+      "Felipe Riquelme": 8,
+      "Alvaro San Martin": 8,
+      "Rubén Alejandro  Ramis Gutierrez": 8,
+      "Sebastian  Porflit Fuentes": 10,
+      "Claudio  Mellado": 1,
+      "Monica Majin Bastidas": 13,
+      "Centro Otorrino Exámenes": 11,
+      "Ana  Vergara": 8,
+      "Christian  Georgi Rodriguez": 4,
+      "Sin asignar": 11,
+      "David Hernandez Bastardo": 13,
+      "Daniela  Guevara": 3,
+      "Loreto Saez Ulloa ": 3,
+      "Luisángel  Milano ": 2,
+      "Barbara Francisca    Duhalde Fuentes": 4,
+      "Barbara Diaz Laser Diodo": 5,
+      "Charlene  Weaver": 2,
+      "Francisca Heusser Killing": 4,
+      "Nashmia Gomez": 2,
+      "Felipe Andai": 2,
+      "Giovanna  Soto": 5,
+      "Lab Oftalmología Camila Martínez": 6,
+      "Isidora Schmidt Vasquez": 1,
+      "Fernando  Diaz": 1,
+      "Marcelo Stevens": 2,
+      "Valentina Henriquez García": 3,
+      "Maria Jose Barrientos": 1,
+      "David  Lopez Olmos": 1,
+      "Nickol Figueroa": 2,
+      "Lorena Beatriz Valenzuela Suazo": 1,
+      "Gonzalo Alejandro Peña Arteche": 1,
+      "Miguel  Arredondo": 3,
+      "María Jesus  Gaete": 1,
+      "Valentina Suarez San Martin": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 77,
+    "recurrentes": 202,
+    "total": 279
+  },
+  "citas": {
+    "total": 375,
+    "canceladas": 62,
+    "inasistencias": 29
+  }
+}
