@@ -1,0 +1,83 @@
+{
+  "fecha": "2026-09-03",
+  "generado": "2026-09-04T01:08:33.418Z",
+  "ventas": {
+    "total": 10938653,
+    "porMedioPago": {
+      "Tarjeta de débito": 6010816,
+      "Bono Fonasa": 1181520,
+      "Efectivo": 841395,
+      "Tarjeta de crédito": 1888183,
+      "Seguro Complementario Previsión": 137319,
+      "Transferencia electrónica": 865000,
+      "Bono": 14420
+    }
+  },
+  "atenciones": {
+    "total": 270,
+    "porProfesional": {
+      "Sergio  Galano": 33,
+      "Constanza  Olguin": 1,
+      "Ana  Vergara": 10,
+      "Sebastian  Porflit Fuentes": 3,
+      "Hans Bachmann Lovece": 6,
+      "Gonzalo Alejandro Peña Arteche": 7,
+      "Rubén Alejandro  Ramis Gutierrez": 10,
+      "David Hernandez Bastardo": 11,
+      "Hugo Bertin Riess": 16,
+      "Tyndall Volosky": 13,
+      "Lorena   Rodríguez Riedel": 2,
+      "Felipe Riquelme": 1,
+      "Valentina Flandez Jaramillo": 13,
+      "Sin asignar": 13,
+      "Loreto Saez Ulloa ": 5,
+      "Alex Gual Ortiz": 5,
+      "Christian  Georgi Rodriguez": 7,
+      "Paola Herrera Martinez": 5,
+      "Erik Gallegos  Matamala ": 3,
+      "Valentina Suarez San Martin": 3,
+      "Maria Jose Barrientos": 2,
+      "David  Lopez Olmos": 2,
+      "Lab Oftalmología Camila Martínez": 7,
+      "Javiera  Pino": 2,
+      "Daniela  Guevara": 1,
+      "Nashmia Gomez": 2,
+      "Centro Otorrino Exámenes": 7,
+      "Sofia  Cánovas": 2,
+      "Valentina Henriquez García": 4,
+      "Daniel Becker Contreras": 2,
+      "Charlene  Weaver": 2,
+      "Monica Majin Bastidas": 9,
+      "Alvaro San Martin": 6,
+      "Miguel  Arredondo": 1,
+      "German  Campos": 7,
+      "María Jesus  Gaete": 1,
+      "Sheila López": 2,
+      "Patricio Duery Diaz": 3,
+      "Martinez  Martyel": 3,
+      "Claudio  Mellado": 1,
+      "Rodrigo Cárdenas Villarroel": 10,
+      "Luisángel  Milano ": 2,
+      "Giovanna  Soto": 3,
+      "Barbara Diaz Laser Diodo": 2,
+      "Victor  León Arriagada ": 3,
+      "Ynes Carolina Arredondo Mendoza": 3,
+      "Nickol Figueroa": 3,
+      "Joaquin  Bernier": 1,
+      "Fernando  Diaz": 3,
+      "Elio  Romero": 3,
+      "Alexis Andrés  Cuevas Aguilar": 1,
+      "Carola  González": 3
+    }
+  },
+  "pacientes": {
+    "nuevos": 57,
+    "recurrentes": 180,
+    "total": 237
+  },
+  "citas": {
+    "total": 438,
+    "canceladas": 87,
+    "inasistencias": 26
+  }
+}
