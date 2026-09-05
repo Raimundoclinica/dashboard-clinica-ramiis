@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-09-04",
+  "generado": "2026-09-05T01:09:59.107Z",
+  "ventas": {
+    "total": 7122736,
+    "porMedioPago": {
+      "Tarjeta de débito": 4222114,
+      "Bono Fonasa": 569590,
+      "Efectivo": 889886,
+      "Tarjeta de crédito": 1118820,
+      "Seguro Complementario Previsión": 130596,
+      "Bono": 191730
+    }
+  },
+  "atenciones": {
+    "total": 218,
+    "porProfesional": {
+      "Daniel Becker Contreras": 3,
+      "Giovanna  Soto": 3,
+      "Paola Herrera Martinez": 4,
+      "Hugo Bertin Riess": 3,
+      "Ana  Vergara": 6,
+      "Sergio  Galano": 38,
+      "Monica Majin Bastidas": 2,
+      "Nickol Figueroa": 8,
+      "Martinez  Martyel": 12,
+      "Sebastian  Porflit Fuentes": 6,
+      "Javiera  Pino": 6,
+      "Claudio  Mellado": 1,
+      "Rodrigo Cárdenas Villarroel": 2,
+      "Daniela  Guevara": 2,
+      "Francisca Heusser Killing": 3,
+      "Barbara Diaz Laser Diodo": 3,
+      "Gonzalo Alejandro Peña Arteche": 1,
+      "David Hernandez Bastardo": 9,
+      "Valentina Flandez Jaramillo": 16,
+      "Christian  Georgi Rodriguez": 8,
+      "David  Lopez Olmos": 2,
+      "María Jesus  Gaete": 2,
+      "Valentina Henriquez García": 6,
+      "Centro Otorrino Exámenes": 8,
+      "Barbara Francisca    Duhalde Fuentes": 1,
+      "Alex Gual Ortiz": 9,
+      "Fernando  Diaz": 2,
+      "Loreto Saez Ulloa ": 4,
+      "Elio  Romero": 1,
+      "Sin asignar": 7,
+      "Tyndall Volosky": 6,
+      "Isidora Schmidt Vasquez": 2,
+      "Maria Jose Barrientos": 3,
+      "German  Campos": 1,
+      "Alvaro San Martin": 3,
+      "Hans Bachmann Lovece": 2,
+      "Valentina Suarez San Martin": 1,
+      "Rubén Alejandro  Ramis Gutierrez": 1,
+      "Luisángel  Milano ": 3,
+      "Ana  Ziliani": 3,
+      "Sofia  Cánovas": 2,
+      "Victor  León Arriagada ": 1,
+      "Patricio Duery Diaz": 4,
+      "Nashmia Gomez": 1,
+      "Lorena   Rodríguez Riedel": 1,
+      "Carola  González": 1,
+      "Charlene  Weaver": 1,
+      "Ivanna Paola Nikovic Valdes": 1,
+      "Sheila López": 1,
+      "Lab Oftalmología Camila Martínez": 2
+    }
+  },
+  "pacientes": {
+    "nuevos": 49,
+    "recurrentes": 148,
+    "total": 197
+  },
+  "citas": {
+    "total": 326,
+    "canceladas": 45,
+    "inasistencias": 19
+  }
+}
