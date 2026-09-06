@@ -1,0 +1,55 @@
+{
+  "fecha": "2026-09-05",
+  "generado": "2026-09-06T01:07:20.102Z",
+  "ventas": {
+    "total": 1933910,
+    "porMedioPago": {
+      "Tarjeta de débito": 999741,
+      "Bono": 114940,
+      "Bono Fonasa": 374730,
+      "Efectivo": 125950,
+      "Tarjeta de crédito": 307870,
+      "Seguro Complementario Previsión": 10679
+    }
+  },
+  "atenciones": {
+    "total": 72,
+    "porProfesional": {
+      "Martinez  Martyel": 2,
+      "Valentina Henriquez García": 1,
+      "Sergio  Galano": 6,
+      "Paola Herrera Martinez": 2,
+      "Hugo Bertin Riess": 3,
+      "Francisca Heusser Killing": 1,
+      "Christian  Georgi Rodriguez": 2,
+      "Daniela  Guevara": 2,
+      "Ana  Vergara": 3,
+      "German  Campos": 2,
+      "Tyndall Volosky": 10,
+      "Valentina Flandez Jaramillo": 8,
+      "Claudio  Mellado": 2,
+      "Alexis Andrés  Cuevas Aguilar": 2,
+      "Centro Otorrino Exámenes": 6,
+      "Victor  León Arriagada ": 1,
+      "Javiera  Pino": 3,
+      "Elio  Romero": 7,
+      "María Jesus  Gaete": 1,
+      "Lorena   Rodríguez Riedel": 1,
+      "Sin asignar": 2,
+      "Ynes Carolina Arredondo Mendoza": 1,
+      "David Hernandez Bastardo": 1,
+      "Sheila López": 2,
+      "Daniel Becker Contreras": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 17,
+    "recurrentes": 53,
+    "total": 70
+  },
+  "citas": {
+    "total": 120,
+    "canceladas": 25,
+    "inasistencias": 14
+  }
+}
