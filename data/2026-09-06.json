@@ -1,0 +1,47 @@
+{
+  "fecha": "2026-09-06",
+  "generado": "2026-09-07T01:08:40.662Z",
+  "ventas": {
+    "total": 0,
+    "porMedioPago": {}
+  },
+  "atenciones": {
+    "total": 50,
+    "porProfesional": {
+      "Miguel  Arredondo": 2,
+      "Francisca Heusser Killing": 1,
+      "Valentina Flandez Jaramillo": 3,
+      "Javiera  Pino": 2,
+      "Sergio  Galano": 9,
+      "Christian  Georgi Rodriguez": 3,
+      "Paola Herrera Martinez": 2,
+      "Ana  Vergara": 3,
+      "Martinez  Martyel": 4,
+      "Daniel Becker Contreras": 1,
+      "Sheila López": 2,
+      "Monica Majin Bastidas": 1,
+      "Daniela  Guevara": 2,
+      "Hugo Bertin Riess": 3,
+      "German  Campos": 2,
+      "Maria Jose Barrientos": 1,
+      "Lorena   Rodríguez Riedel": 1,
+      "Hans Bachmann Lovece": 1,
+      "Lorena Beatriz Valenzuela Suazo": 1,
+      "David Hernandez Bastardo": 2,
+      "Rodrigo Cárdenas Villarroel": 1,
+      "Marcelo Stevens": 1,
+      "Gonzalo Alejandro Peña Arteche": 1,
+      "Luisángel  Milano ": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 15,
+    "recurrentes": 35,
+    "total": 50
+  },
+  "citas": {
+    "total": 0,
+    "canceladas": 0,
+    "inasistencias": 0
+  }
+}
