@@ -1,0 +1,82 @@
+{
+  "fecha": "2026-09-07",
+  "generado": "2026-09-08T01:18:49.244Z",
+  "ventas": {
+    "total": 13183012,
+    "porMedioPago": {
+      "Tarjeta de débito": 7640175,
+      "Tarjeta de crédito": 2940225,
+      "Efectivo": 1509725,
+      "Bono Fonasa": 770530,
+      "Seguro Complementario Previsión": 58424,
+      "Bono": 198620,
+      "Transferencia electrónica": 65313
+    }
+  },
+  "atenciones": {
+    "total": 349,
+    "porProfesional": {
+      "Ana  Vergara": 13,
+      "Monica Majin Bastidas": 32,
+      "Sergio  Galano": 50,
+      "Giovanna  Soto": 6,
+      "Rubén Alejandro  Ramis Gutierrez": 8,
+      "María Jesus  Gaete": 2,
+      "Alvaro San Martin": 6,
+      "Rodrigo Cárdenas Villarroel": 5,
+      "Christian  Georgi Rodriguez": 9,
+      "Valentina Flandez Jaramillo": 16,
+      "Hugo Bertin Riess": 13,
+      "Erik Gallegos  Matamala ": 1,
+      "Nashmia Gomez": 2,
+      "Maria Jose Barrientos": 5,
+      "Victor  León Arriagada ": 6,
+      "Hans Bachmann Lovece": 9,
+      "Tyndall Volosky": 6,
+      "Valentina Suarez San Martin": 5,
+      "Alexis Andrés  Cuevas Aguilar": 4,
+      "Sheila López": 5,
+      "Sin asignar": 14,
+      "Alex Gual Ortiz": 4,
+      "Barbara Diaz Laser Diodo": 3,
+      "Centro Otorrino Exámenes": 17,
+      "Lorena Beatriz Valenzuela Suazo": 1,
+      "Gonzalo Alejandro Peña Arteche": 7,
+      "Daniel Becker Contreras": 3,
+      "Felipe Riquelme": 12,
+      "Paola Herrera Martinez": 5,
+      "Lab Oftalmología Camila Martínez": 4,
+      "Lorena   Rodríguez Riedel": 1,
+      "Valentina Henriquez García": 7,
+      "Nickol Figueroa": 2,
+      "Barbara Francisca    Duhalde Fuentes": 3,
+      "Joaquin  Bernier": 1,
+      "Carola  González": 2,
+      "Ivanna Paola Nikovic Valdes": 5,
+      "David Hernandez Bastardo": 14,
+      "Javiera  Pino": 4,
+      "Sebastian  Porflit Fuentes": 5,
+      "Luisángel  Milano ": 2,
+      "Francisca Heusser Killing": 1,
+      "Martinez  Martyel": 1,
+      "Miguel  Arredondo": 8,
+      "German  Campos": 8,
+      "Ruben Gerardo Ramis  Olivares ": 2,
+      "Loreto Saez Ulloa ": 6,
+      "Daniela  Guevara": 1,
+      "Charlene  Weaver": 1,
+      "Patricio Duery Diaz": 1,
+      "Marcelo Stevens": 1
+    }
+  },
+  "pacientes": {
+    "nuevos": 78,
+    "recurrentes": 241,
+    "total": 319
+  },
+  "citas": {
+    "total": 413,
+    "canceladas": 74,
+    "inasistencias": 35
+  }
+}
