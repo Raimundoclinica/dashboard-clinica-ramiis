@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-09-08",
+  "generado": "2026-09-09T01:21:32.663Z",
+  "ventas": {
+    "total": 9220774,
+    "porMedioPago": {
+      "Tarjeta de débito": 5958913,
+      "Seguro Complementario Previsión": 125920,
+      "Bono Fonasa": 782270,
+      "Tarjeta de crédito": 1241673,
+      "Bono": 14420,
+      "Efectivo": 436778,
+      "Cuotas T/C sin interes": 160800,
+      "Transferencia electrónica": 500000
+    }
+  },
+  "atenciones": {
+    "total": 266,
+    "porProfesional": {
+      "Sergio  Galano": 43,
+      "Nashmia Gomez": 1,
+      "Hugo Bertin Riess": 11,
+      "Daniel Becker Contreras": 6,
+      "Martinez  Martyel": 3,
+      "Javiera  Pino": 2,
+      "Valentina Flandez Jaramillo": 9,
+      "Giovanna  Soto": 13,
+      "David  Lopez Olmos": 2,
+      "David Hernandez Bastardo": 10,
+      "Felipe Riquelme": 8,
+      "Daniela  Guevara": 3,
+      "Sin asignar": 8,
+      "Rubén Alejandro  Ramis Gutierrez": 4,
+      "Monica Majin Bastidas": 9,
+      "Sebastian  Porflit Fuentes": 6,
+      "Alex Gual Ortiz": 6,
+      "Hans Bachmann Lovece": 14,
+      "Loreto Saez Ulloa ": 7,
+      "Paola Herrera Martinez": 5,
+      "Centro Otorrino Exámenes": 7,
+      "María Jesus  Gaete": 4,
+      "Ana  Vergara": 7,
+      "Marcelo Stevens": 1,
+      "Patricio Duery Diaz": 1,
+      "Barbara Diaz Laser Diodo": 3,
+      "Tyndall Volosky": 7,
+      "Sheila López": 21,
+      "Alexis Andrés  Cuevas Aguilar": 1,
+      "Nickol Figueroa": 1,
+      "Barbara Francisca    Duhalde Fuentes": 4,
+      "Felipe Andai": 5,
+      "Ana  Ziliani": 3,
+      "Victor  León Arriagada ": 3,
+      "Alvaro San Martin": 3,
+      "Rodrigo Cárdenas Villarroel": 3,
+      "Valentina Henriquez García": 3,
+      "Lab Oftalmología Camila Martínez": 3,
+      "Sofia  Cánovas": 1,
+      "Isidora Schmidt Vasquez": 1,
+      "Elio  Romero": 1,
+      "Christian  Georgi Rodriguez": 2,
+      "Francisca Heusser Killing": 1,
+      "Ruben Gerardo Ramis  Olivares ": 1,
+      "Erik Gallegos  Matamala ": 1,
+      "Ivanna Paola Nikovic Valdes": 3,
+      "Charlene  Weaver": 1,
+      "German  Campos": 4
+    }
+  },
+  "pacientes": {
+    "nuevos": 58,
+    "recurrentes": 183,
+    "total": 241
+  },
+  "citas": {
+    "total": 399,
+    "canceladas": 74,
+    "inasistencias": 23
+  }
+}
